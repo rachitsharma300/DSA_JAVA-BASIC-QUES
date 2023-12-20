@@ -1,7 +1,7 @@
 import java.util.*;
-public class largestNumber 
+public class largestNumber
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
     Scanner scan = new Scanner(System.in);
 
@@ -11,10 +11,9 @@ public class largestNumber
     System.out.println("Enter Your Second Number:--");
     int b = scan.nextInt();
 
-    System.out.println("Enter Your Third Number");
+    System.out.println("Enter Your Third Number:--");
     int c = scan.nextInt();
-
-    if (a>b && a>c) 
+    if (a>b && a>c)
     {
         System.out.println(a + "is largest number");
     }
